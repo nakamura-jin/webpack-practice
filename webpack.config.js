@@ -22,11 +22,23 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(png|jpg)/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              esModule: false,
+              name: 'images/[name].[ext]',
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: './stylesheets/min.css'
+      filename: './stylesheets/min.css',
     }),
     new HtmlWebpackPlugin({
       template: './src/templates/index.html',
