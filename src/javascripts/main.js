@@ -1,4 +1,3 @@
-import my from './my.js';
 import '../stylesheets/main.scss';
 
 import Vue from 'vue';
@@ -9,5 +8,3 @@ new Vue({
   render: (h) => h(VueApp)
 })
 
-console.log("webpack");
-my();
