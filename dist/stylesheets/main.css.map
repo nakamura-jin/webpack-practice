@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/stylesheets/main.scss","webpack:///./src/javascripts/VueApp.vue"],"names":[],"mappings":"AAAA,KAAK,c;ACAL,mBAAmB,Y","file":"./stylesheets/main.css","sourcesContent":["body{color:#add8e6}","p[data-v-61755dfd]{color:green}"],"sourceRoot":""}
